@@ -1,0 +1,28 @@
+{
+	"Name":"Grasslands",
+	"Description":"Wind swept grass and wide open plains"
+	"MovementType" : Foot,	
+	"MovementCost" : 1,
+	"SupportsRoads" : true
+},
+{
+	"Name":"Swamp",
+	"Description":"Muddy and smelly"
+	"MovementType" : Foot,	
+	"MovementCost" : 4,
+	"SupportsRoads" : true
+},
+{
+	"Name":"Ocean",
+	"Description":"The deep blue sea"
+	"MovementType" : Boat,	
+	"MovementCost" : 1,
+	"SupportsRoads" : false
+},
+{
+	"Name":"Mountain",
+	"Description":"The peaks"
+	"MovementType" : None,	
+	"MovementCost" : 0,
+	"SupportsRoads" : false
+}

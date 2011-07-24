@@ -1,0 +1,34 @@
+﻿Build started 7/20/2011 8:18:19 PM.
+     1>Project "c:\projects\JSG3\JSGMapCreator\JSGMapCreator.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\projects\JSG3\Release\".
+       InitializeBuildStatus:
+         Creating "Release\JSGMapCreator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\JSGMapCreator.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\JSGMapCreator.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HexTerrain.cpp JSGMap.cpp JSGMapCreator.cpp JSGMapRenderer.cpp MapHex.cpp MovementType.h
+         HexTerrain.cpp
+     1>HexTerrain.cpp(1): warning C4627: '#include "HexTerrain.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>HexTerrain.cpp(6): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         JSGMap.cpp
+     1>JSGMap.cpp(2): warning C4627: '#include "JSGMap.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>JSGMap.cpp(33): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         JSGMapCreator.cpp
+     1>c:\projects\jsg3\jsgmapcreator\JSGMap.h(5): fatal error C1083: Cannot open include file: 'boost/multi_array.hpp': No such file or directory
+         JSGMapRenderer.cpp
+     1>JSGMapRenderer.cpp(1): warning C4627: '#include "JSGMapRenderer.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>JSGMapRenderer.cpp(6): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         MapHex.cpp
+     1>MapHex.cpp(1): warning C4627: '#include "MapHex.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>MapHex.cpp(6): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         MovementType.h
+     1>Done Building Project "c:\projects\JSG3\JSGMapCreator\JSGMapCreator.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64
